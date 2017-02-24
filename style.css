@@ -70,10 +70,6 @@
 	padding-right: 15px;
 }
 
-.nav_buttons:hover{
-	background-color: #383838;
-}
-
 .navbutton{
 	text-decoration: none;
 	color: #f8f8f8;
@@ -125,7 +121,12 @@
 .overlay
 {
 	background-color: #181818;
-	opacity: 0.2;
+	opacity: 0.6;
+	position: fixed;
+	top:0px;
+	left:0px;
+	width: 100vw;
+	height: 100vh;
 }
 
 .dash_container{
@@ -141,20 +142,12 @@
 	padding: 50px;
 }
 
-.form_container:hover{
-	background-color: #383838;
-}
-
 .form_class{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-around;
 	height: 100px;
-}
-
-.form_class:hover{
-	background-color: #585858;
 }
 
 .foot{
