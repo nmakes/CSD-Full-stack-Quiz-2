@@ -122,6 +122,12 @@
 	padding: 50px;
 }
 
+.overlay
+{
+	background-color: #181818;
+	opacity: 0.2;
+}
+
 .dash_container{
 	display: flex;
 
